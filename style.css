@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+h2{
+  font-family: 'Raleway',sans-serif;
+  font-weight: 700;
+}
+body{
+  width: 1440px;
+  margin: auto;
+  font-family: 'Open Sans',sans-serif;
+}
+
+header{
+  margin-top: 50px;
+  display: flex;
+  //background-color: aqua;
+  justify-content: space-between;
+  align-items: center;
+}
+header img{
+  margin-left: 70px;
+}
+header ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+header ul li{
+flex: 1;
+margin: 0 20px;
+white-space: nowrap;
+list-style: none;
+
+}
+header ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.first-page{
+  margin-top: 100px;
+  display: flex;
+}
+.started{
+flex: 1;
+//background-color: lightskyblue;
+}
+.image-first-right{
+  flex: 1;
+}
+.image-first-right img{
+  max-width:720px;
+  max-height:720px;
+  width: auto;
+  height: auto;
+}
+.started{
+  padding: 120px 70px;
+}
+.started h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.started p{
+  margin-top: 20px;
+  font-size: 18px;
+}
+.started form{
+  margin-top: 20px;
+}
+.started #email{
+  background-color: white;
+  padding: 12px 70px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid hsl(243, 87%, 12%);
+}
+.started #email::placeholder{
+  font-size: 16px;
+  color: lightgrey;
+  
+}
+.started #submit{
+  box-shadow: none;
+  border-radius: 3px;
+  border: 0;
+  padding: 12px 70px;
+  margin-left: 10px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  font-size: 16px;
+}
